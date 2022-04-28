@@ -179,7 +179,7 @@ a {
 
 .project-image {
   /* height: calc(100% - 6.8rem); */
-  height: 80%;
+  height: 83%;
   width: 100%;
   object-fit: cover;
 }
@@ -255,6 +255,12 @@ a {
   transform: translateY(5px);
 }
 
+@media screen and (max-width: 712px) {
+  .project-title {
+    margin-top: 10px;
+  }
+}
+
 /* max-width: 600px means less than 600px */
 
 @media (max-width: 600px) {
@@ -265,6 +271,7 @@ a {
 
   .project-title {
     margin-top: 8px;
+    font-size: 1.5rem;
   }
 }
 
