@@ -17,151 +17,163 @@
     <title>Personal Portfolio</title>
   </head>
   <body>
-    <nav id="navbar">
-      <ul class="uls">
-        <li class="lis">
-          <a href="#welcome-section">About</a>
-        </li>
-        <li class="lis">
-          <a href="#projects">Work</a>
-        </li>
-        <li class="lis">
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="NavContainer">
+      <nav id="navbar">
+        <ul class="uls">
+          <li class="lis">
+            <a href="#welcome-section">About</a>
+          </li>
+          <li class="lis">
+            <a href="#projects">Work</a>
+          </li>
+          <li class="lis">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <section id="welcome-section">
-      <h1 id="title">Hey I am Daniel</h1>
-      <p>a web developer</p>
+      <h1 id="title">I am Daniel</h1>
+      <p class="subtitle">a web developer</p>
     </section>
 
     <!-- Projects Section -->
 
     <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">These are some of my projects</h2>
+      <div class="ProjectsContainer">
+        <div class="projectsTitleContainer">
+          <h2 class="projects-section-header">These are some of my projects</h2>
+        </div>
 
-      <div class="projects-grid">
-        <!-- Project I -->
-        <a
-          href="https://musicplayerds.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="./img/Music_Player_img.PNG"
-            alt="Music Player"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Music Player
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <!-- Project II -->
-        <a
-          href="https://codepen.io/DaniSX97/full/GRyJRop"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="./img/25+5_Clock_img.PNG"
-            alt="25+5 Clock"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            25 + 5 Clock
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <!-- Project III -->
-        <a
-          href="https://codepen.io/DaniSX97/full/popodRO"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="./img/Drum_Machine_img.PNG"
-            alt="Drum Machine"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Drum Machine
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <!-- Project IV -->
-        <a
-          href="https://codepen.io/DaniSX97/full/OJOeRmy"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="./img/Random_Quote_img.PNG"
-            alt="Random Quote"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Random Quote Generator
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <!-- Project V -->
-        <a
-          href="https://modelpage.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="./img/ModelPage.PNG"
-            alt="Model Page"
-          />
+        <div class="projects-grid">
+          <!-- Project I -->
+          <a
+            href="https://musicplayerds.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/Music_Player_img.PNG"
+              alt="Music Player"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Music Player
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <!-- Project II -->
+          <a
+            href="https://codepen.io/DaniSX97/full/GRyJRop"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/25+5_Clock_img.PNG"
+              alt="25+5 Clock"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              25 + 5 Clock
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <!-- Project III -->
+          <a
+            href="https://codepen.io/DaniSX97/full/popodRO"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/Drum_Machine_img.PNG"
+              alt="Drum Machine"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Drum Machine
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <!-- Project IV -->
+          <a
+            href="https://codepen.io/DaniSX97/full/OJOeRmy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/Random_Quote_img.PNG"
+              alt="Random Quote"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Random Quote Generator
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <!-- Project V -->
+          <a
+            href="https://modelpage.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/ModelPage.PNG"
+              alt="Model Page"
+            />
 
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Model Page
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <!-- Project VI -->
-        <a
-          href="https://mybasic-calculator.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img class="project-image" src="./img/Calc_DS.PNG" alt="Calculator" />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            React Calculator
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Model Page
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <!-- Project VI -->
+          <a
+            href="https://mybasic-calculator.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="./img/Calc_DS.PNG"
+              alt="Calculator"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              React Calculator
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="showAllContainer">
+          <a
+            href="https://codepen.io/DaniSX97"
+            class="btn btn-show-all"
+            target="_blank"
+            >Show all CodePen</a
+          >
+
+          <a
+            href="https://github.com/DanielSanchezM97"
+            class="btn btn-show-all"
+            target="_blank"
+            >Show all GitHub</a
+          >
+        </div>
       </div>
-
-      <a
-        href="https://codepen.io/DaniSX97"
-        class="btn btn-show-all"
-        target="_blank"
-        >Show all CodePen</a
-      >
-
-      <a
-        href="https://github.com/DanielSanchezM97"
-        class="btn btn-show-all"
-        target="_blank"
-        >Show all GitHub</a
-      >
     </section>
 
     <!-- Card Section -->
@@ -197,13 +209,13 @@
                 </h3>
               </div>
               <div class="actionBtn">
-                <button>
+                <button class="CardBtns">
                   <a href="mailto:programmingacc97@gmail.com">
                     <i class="fas fa-paper-plane plane"></i>
                     mail
                   </a>
                 </button>
-                <button>
+                <button class="CardBtns">
                   <a href="tel:+506-6082-6380"
                     ><i class="fas fa-mobile-alt phone"></i> Call me</a
                   >
@@ -218,30 +230,31 @@
     <!-- Contact Section -->
 
     <section class="contact-section" id="contact">
-      <div>
-        <h2 id="contact-title">Frame Works Learned</h2>
-      </div>
-      <div class="contact_links">
-        <a
-          href="https://www.linkedin.com/in/daniel-alexander-s%C3%A1nchez-madrigal-651449202/"
-          target="_blank"
-          class="btn_links contact-details"
-        >
-          <i class="fab fa-linkedin"></i>
-          Linkedin
-        </a>
+      <div class="contactContainer">
+        <div>
+          <h2 id="contact-title">Frame Works Learned</h2>
+        </div>
+        <div class="contact_links">
+          <a
+            href="https://www.linkedin.com/in/daniel-alexander-s%C3%A1nchez-madrigal-651449202/"
+            target="_blank"
+            class="btn_links contact-details"
+          >
+            <i class="fab fa-linkedin"></i>
+            Linkedin
+          </a>
 
-        <a
-          href="https://github.com/DanielSanchezM97"
-          target="_blank"
-          class="btn_links contact-details"
-          id="profile-link"
-        >
-          <i class="fab fa-github"></i>
-          Github
-        </a>
+          <a
+            href="https://github.com/DanielSanchezM97"
+            target="_blank"
+            class="btn_links contact-details"
+            id="profile-link"
+          >
+            <i class="fab fa-github"></i>
+            Github
+          </a>
 
-        <!-- <a
+          <!-- <a
           href="mailto:programmingacc97@gmail.com"
           class="btn_links contact-details"
         >
@@ -249,14 +262,16 @@
           Send a mail</a
         > -->
 
-        <!-- <a href="tel:+506-6082-6380" class="btn_links contact-details"
+          <!-- <a href="tel:+506-6082-6380" class="btn_links contact-details"
           ><i class="fas fa-mobile-alt"></i> Call me</a
         > -->
+        </div>
       </div>
     </section>
 
     <!-- FWK Section -->
-    <section>
+
+    <!-- <section>
       <div class="SkillsSection">
         <div class="skill-card">
           <header class="skill-card__header">
@@ -278,6 +293,6 @@
           </section>
         </div>
       </div>
-    </section>
+    </section> -->
   </body>
 </html>

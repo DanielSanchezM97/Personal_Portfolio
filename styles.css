@@ -18,25 +18,25 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 75em) {
+/* @media (max-width: 75em) {
   html {
     font-size: 60%;
   }
-}
+} */
 
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
+/* ? 980px / 16px = 61.25em */
+/* @media (max-width: 61.25em) {
   html {
     font-size: 58%;
   }
-}
+} */
 
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
+/* ? 460px / 16px = 28.75em */
+/* @media (max-width: 28.75em) {
   html {
     font-size: 55%;
   }
-}
+} */
 
 h1,
 h2 {
@@ -47,13 +47,13 @@ h2 {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
   margin: 0;
   padding: 0;
-  min-width: 450px;
+  /* ! Fatal error put a min-width on the body */
+  /* ? min-width: 450px; */
 }
 
 #navbar {
@@ -112,7 +112,7 @@ a {
   font-size: 6rem;
 }
 
-#welcome-section p {
+.subtitle {
   font-size: 3rem;
   color: #190cc9;
 }
@@ -154,8 +154,8 @@ a {
 
 @media (max-width: 30.625em) {
   .projects-section {
-    padding: 6rem 3rem;
-    /* padding: 6rem 1rem; */
+    /* padding: 6rem 3rem; */
+    padding: 6rem 1rem;
   }
 
   .projects-grid {
@@ -205,6 +205,7 @@ a {
   font-size: 2rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
+  background: none;
 }
 
 .btn-show-all:hover {
@@ -220,7 +221,7 @@ a {
   align-items: center;
   text-align: center;
   height: 80vh;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   background: var(--main-gray);
 }
 
@@ -284,13 +285,13 @@ a {
   }
 }
 
-/* Card design  */
+/* Card Presentation design  */
 
 .cardContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   /* height: 700px; */
   font-family: "Poppins", sans-serif;
   color: #000;
@@ -317,6 +318,8 @@ a {
 .card:hover {
   height: 450px;
 }
+
+/* Test */
 
 .imgBx {
   position: absolute;
@@ -367,6 +370,8 @@ a {
 .card:hover .content .details {
   transform: translateY(0px);
 }
+
+/* Test 2 */
 
 .card .content .details h2 {
   font-size: 1.25em;
@@ -591,4 +596,146 @@ html {
   transition-duration: 0;
   transition-delay: 0.5s;
   transform: translateX(-100%);
+}
+
+/* Resizing for mobiles with less than 450px */
+
+@media screen and (max-width: 465px) {
+  /* ! Nav and the Hero Section */
+  .NavContainer {
+    width: 100%;
+  }
+
+  .lis a {
+    font-size: 12px;
+  }
+
+  #title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  /* ! Projects Section */
+
+  .ProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projectsTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .projects-section-header {
+    font-size: 15px;
+  }
+
+  .project {
+    transform: scale(0.8);
+  }
+
+  .btn-show-all {
+    font-size: 15px;
+  }
+
+  .showAllContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* ! Info Card Section */
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card {
+    width: 250px;
+    height: 130px;
+  }
+
+  .card:hover {
+    height: 260px;
+  }
+
+  .imgBx {
+    left: 50%;
+    top: -50px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .card:hover .imgBx {
+    width: 130px;
+    height: 130px;
+  }
+
+  .card .content .details {
+    transform: translateY(120px);
+  }
+
+  .card:hover {
+    transform: translateY(0px);
+  }
+
+  .card .content .details h2 {
+    font-size: 1em;
+  }
+
+  .card .content .details h2 span {
+    font-size: 0.6em;
+  }
+
+  .card .content .details .data h3 {
+    font-size: 0.75em;
+  }
+
+  .card .content .details .data h3 span {
+    font-size: 0.7em;
+  }
+
+  .card .content .details .actionBtn button {
+    font-size: 0.75em;
+    padding: 5px 20px;
+  }
+
+  .actionBtn button i {
+    font-size: 0.65em;
+  }
+
+  /* Contact Section */
+
+  #contact-title {
+    font-size: 20px;
+  }
+
+  .contact_links {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  /* Contact Section */
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
