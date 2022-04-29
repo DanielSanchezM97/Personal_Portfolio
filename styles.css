@@ -317,7 +317,7 @@ a {
 }
 
 .card:hover {
-  height: 450px;
+  height: 430px;
 }
 
 .imgBx {
@@ -434,7 +434,7 @@ a {
   color: pink;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 720px) {
   .actionBtn button {
     width: 140px;
   }
@@ -595,9 +595,15 @@ html {
   transform: translateX(-100%);
 }
 
-/* Resizing for mobiles with less than 450px */
+@media screen and (max-width: 768px) {
+  .CardBtns {
+    width: 150px;
+  }
+}
 
-@media screen and (max-width: 465px) {
+/* Resizing for mobiles with less than 600px */
+
+@media screen and (max-width: 600px) {
   /* ! Nav and the Hero Section */
   .NavContainer {
     width: 100%;
@@ -636,7 +642,14 @@ html {
   }
 
   .project {
-    transform: scale(0.8);
+    transform: scale(0.9);
+  }
+
+  .project-image {
+    /* height: calc(100% - 6.8rem); */
+    height: 78%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .btn-show-all {
@@ -666,7 +679,7 @@ html {
   }
 
   .card:hover {
-    height: 270px;
+    height: 330px;
   }
 
   .imgBx {
@@ -682,7 +695,7 @@ html {
   }
 
   .card .content .details {
-    transform: translateY(135px);
+    transform: translateY(165px);
   }
 
   .card:hover {
@@ -690,24 +703,28 @@ html {
   }
 
   .card .content .details h2 {
-    font-size: 1.3em;
-  }
-
-  .card .content .details h2 span {
-    font-size: 0.75em;
-  }
-
-  .card .content .details .data h3 {
     font-size: 1em;
   }
 
+  .card .content .details h2 span {
+    font-size: 0.6em;
+  }
+
+  .card .content .details .data h3 {
+    font-size: 0.75em;
+  }
+
   .card .content .details .data h3 span {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   .card .content .details .actionBtn button {
-    font-size: 0.9em;
+    font-size: 0.75em;
     padding: 5px 20px;
+  }
+
+  .CardBtns {
+    width: 100px;
   }
 
   .actionBtn button i {
