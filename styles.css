@@ -54,8 +54,6 @@ body {
   margin: 0;
   padding: 0;
   min-width: 450px;
-  /* Added */
-  background: linear-gradient(45deg, #fbda61, #ff5acd);
 }
 
 #navbar {
@@ -292,9 +290,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 700px;
+  height: 100vh;
+  /* height: 700px; */
   font-family: "Poppins", sans-serif;
   color: #000;
+  background: rgb(26, 203, 212);
+  background: linear-gradient(
+    137deg,
+    rgba(26, 203, 212, 1) 0%,
+    rgba(77, 177, 184, 1) 42%,
+    rgba(77, 177, 184, 1) 67%
+  );
 }
 
 .card {
