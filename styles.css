@@ -642,7 +642,7 @@ html {
   }
 }
 
-/* Resizing for mobiles with less than 600px */
+/* ! Resizing for mobiles with less than 600px */
 
 @media screen and (max-width: 600px) {
   /* ! Nav and the Hero Section */
@@ -660,48 +660,6 @@ html {
 
   .subtitle {
     font-size: 20px;
-  }
-
-  /* ! Projects Section */
-
-  .ProjectsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .projectsTitleContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .projects-section-header {
-    font-size: 15px;
-  }
-
-  .project {
-    transform: scale(0.9);
-  }
-
-  .project-image {
-    /* height: calc(100% - 6.8rem); */
-    height: 78%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .btn-show-all {
-    font-size: 15px;
-  }
-
-  .showAllContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 
   /* ! Info Card Section */
@@ -780,27 +738,55 @@ html {
     font-size: 1em;
   }
 
-  /* ! Contact Section */
+  /* ! Skills Section */
 
-  #contact-title {
-    font-size: 20px;
+  .skills_title {
+    font-size: 1.5em;
   }
 
-  .contact_links {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-  }
+  /* ! Projects Section */
 
-  /* Contact Section */
-
-  .contactContainer {
+  .ProjectsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .projectsTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
+
+  .projects-section-header {
+    font-size: 15px;
+  }
+
+  .project {
+    transform: scale(0.9);
+  }
+
+  .project-image {
+    /* height: calc(100% - 6.8rem); */
+    height: 78%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .btn-show-all {
+    font-size: 15px;
+  }
+
+  .showAllContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* ! Contact Section */
 }
 
 /* ! Footer */
@@ -918,6 +904,116 @@ html {
   }
 
   .CodepenIcon {
-    font-size: 25px;
+    font-size: 24px;
+  }
+}
+
+/* ! Xs Devices like the galaxy fold */
+
+@media screen and (max-width: 300px) {
+  /* ! Header */
+
+  #title {
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  /* ! Info Card */
+
+  .card {
+    width: 220px;
+    height: 100px;
+  }
+
+  .card:hover {
+    height: 300px;
+  }
+
+  .imgBx {
+    left: 50%;
+    top: -70px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .card:hover .imgBx {
+    width: 130px;
+    height: 130px;
+  }
+
+  .card .content .details .data h3 {
+    font-size: 0.7em;
+  }
+
+  .card .content .details .data h3 span {
+    font-size: 0.65em;
+  }
+
+  .card .content .details .actionBtn button {
+    font-size: 0.6em;
+    padding: 5px 10px;
+  }
+
+  .CardBtns {
+    width: 80px;
+  }
+
+  .actionBtn button i {
+    font-size: 0.75em;
+  }
+
+  /* ! Skills Section */
+
+  .skills_title {
+    font-size: 1.5rem;
+  }
+
+  .SkillsSection {
+    max-width: 100%;
+  }
+
+  .skill-card {
+    transform: translateY(-50%) translateX(-60%);
+    width: 13em;
+    height: 15em;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .skill-card .skill-card__body .skill-card__title {
+    font-size: 1em;
+  }
+
+  /* ! Footer */
+
+  .footerContact {
+    padding: 4rem 0 0 2.5rem;
+  }
+
+  .footerAbout {
+    padding: 0 0 0 2.5rem;
+  }
+
+  #social {
+    padding: 0 0 0 2.5rem;
+  }
+
+  .footerTitles {
+    font-size: 18px;
+  }
+
+  .footerLinks {
+    font-size: 13px;
+  }
+
+  .footerIcons {
+    height: 22px;
+    width: 22px;
+  }
+
+  .CodepenIcon {
+    font-size: 22px;
   }
 }
