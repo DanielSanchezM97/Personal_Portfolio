@@ -687,12 +687,12 @@ html {
   }
 
   .card:hover {
-    height: 330px;
+    height: 300px;
   }
 
   .imgBx {
     left: 50%;
-    top: -50px;
+    top: -80px;
     width: 130px;
     height: 130px;
   }
@@ -703,11 +703,11 @@ html {
   }
 
   .card .content .details {
-    -ms-transform: translateY(165px);
-    -webkit-transform: translateY(165px);
-    -moz-transform: translateY(165px);
-    -o-transform: translateY(165px);
-    transform: translateY(165px);
+    -ms-transform: translateY(160px);
+    -webkit-transform: translateY(160px);
+    -moz-transform: translateY(160px);
+    -o-transform: translateY(160px);
+    transform: translateY(160px);
   }
 
   .card:hover {
