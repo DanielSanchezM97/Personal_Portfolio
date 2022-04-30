@@ -933,6 +933,14 @@ html {
   .CodepenIcon {
     font-size: 24px;
   }
+
+  .footerLinks {
+    font-size: 13px;
+  }
+
+  #copyText {
+    font-size: 13px;
+  }
 }
 
 /* ! Xs Devices like the galaxy fold */
