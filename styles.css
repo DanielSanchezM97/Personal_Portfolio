@@ -288,7 +288,7 @@ a {
   }
 }
 
-/* Card Presentation design  */
+/* ! Card Presentation design  */
 
 .cardContainer {
   display: flex;
@@ -599,6 +599,18 @@ html {
 
 #javascript {
   background-color: #e7e417;
+}
+
+#react {
+  background-color: black;
+}
+
+#NextJS {
+  background-color: white;
+}
+
+#bootstrap {
+  background-color: #9e25ce;
 }
 
 .skill-card .skill-card__header .skill-card__icon {
