@@ -908,11 +908,15 @@ html {
 
 @media screen and (max-width: 768px) {
   .footer-grid {
+    /* grid-template-columns: repeat(1, 1fr); */
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .footerContact {
-    padding: 5rem 0 0 3rem;
+    padding: 3rem 0 0 3rem;
   }
 
   .footerAbout {
@@ -932,6 +936,10 @@ html {
 
   .CodepenIcon {
     font-size: 24px;
+  }
+
+  .footerTitles {
+    font-size: 20px;
   }
 
   .footerLinks {
