@@ -507,12 +507,16 @@ html {
   color: #000;
 } */
 
+.skills {
+  margin-bottom: 200px;
+}
+
 .skills_title {
   font-size: 2.5em;
   font-weight: 600;
   color: #000;
   text-align: center;
-  margin: 50px 0 30px 0;
+  margin: 100px 0 30px 0;
 }
 
 .Skill-grid {
@@ -528,7 +532,7 @@ html {
   font-size: 12px;
   font-weight: 400;
   color: #000;
-  margin: 40px auto;
+  margin: 40px auto 100px auto;
   /* height: 100vh; */
 }
 
@@ -758,7 +762,12 @@ html {
   /* ! Skills Section */
 
   .skills_title {
+    margin: 50px 0 30px 0;
     font-size: 1.5em;
+  }
+
+  .SkillsSection {
+    margin: 50px auto;
   }
 
   /* ! Projects Section */
@@ -815,7 +824,7 @@ html {
   width: 100%;
   margin: 0;
   /* padding: 5rem 3rem 0 0; */
-  background-color: #000;
+  background-color: #212529;
 }
 
 #Contact {
@@ -823,7 +832,7 @@ html {
   align-items: center;
   justify-content: center; */
   width: 100%;
-  background-color: #000000;
+  background-color: #212529;
 }
 
 .footerContact {
@@ -845,7 +854,7 @@ html {
 .footerTitles {
   font-size: 25px;
   color: #8c8c8c;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 .footerLinks:hover {
@@ -853,11 +862,11 @@ html {
 }
 
 .footerLinks {
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
   color: #f1f1f1;
   letter-spacing: 0.5px;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
 }
 
 .footerIcons {
@@ -878,10 +887,11 @@ html {
 }
 
 #copyText {
-  font-size: 17px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
   color: #8c8c8c;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   display: flex;
   justify-content: center;
   align-items: center;
