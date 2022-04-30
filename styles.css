@@ -862,11 +862,11 @@ html {
 }
 
 .footerLinks {
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
   color: #f1f1f1;
   letter-spacing: 0.5px;
-  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .footerIcons {
@@ -887,11 +887,11 @@ html {
 }
 
 #copyText {
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: 0.5px;
   color: #8c8c8c;
   text-align: center;
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
