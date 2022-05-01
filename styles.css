@@ -268,7 +268,7 @@ a {
   transform: translateY(5px);
 }
 
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 716px) {
   .project-title {
     margin-top: 10px;
   }
@@ -281,7 +281,9 @@ a {
     font-size: 4rem;
     padding: 0;
   }
+}
 
+@media screen and (max-width: 480px) {
   .project-title {
     margin-top: 8px;
     font-size: 1.5rem;
@@ -818,8 +820,6 @@ html {
     align-items: center;
     flex-direction: column;
   }
-
-  /* ! Contact Section */
 }
 
 /* ! Footer */
@@ -961,6 +961,17 @@ html {
 /* ! Xs Devices like the galaxy fold */
 
 @media screen and (max-width: 300px) {
+  /* ! Navbar */
+
+  .NavContainer {
+    width: 100%;
+  }
+
+  .lis a {
+    font-size: 10px;
+    padding: 12px;
+  }
+
   /* ! Header */
 
   #title {
@@ -1015,6 +1026,17 @@ html {
     font-size: 0.75em;
   }
 
+  /* ! Projects Section */
+
+  .project-title {
+    margin-top: 3px;
+    font-size: 1.2rem;
+  }
+
+  .btn-show-all {
+    font-size: 0.6em;
+  }
+
   /* ! Skills Section */
 
   .skills_title {
@@ -1033,7 +1055,12 @@ html {
   }
 
   .skill-card .skill-card__body .skill-card__title {
+    margin-top: 10px;
     font-size: 1em;
+  }
+
+  .skill-card__knowledge li {
+    font-size: 0.8em;
   }
 
   /* ! Footer */
@@ -1055,7 +1082,7 @@ html {
   }
 
   .footerLinks {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .footerIcons {
