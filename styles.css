@@ -663,7 +663,7 @@ html {
   margin-top: 5px;
   transition-duration: 0;
   transition-delay: 0.5s;
-  transform: translateX(-100%);
+  transform: translateX(-150%);
 }
 
 @media screen and (max-width: 768px) {
